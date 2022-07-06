@@ -12,7 +12,7 @@ func Avg(nums []float64) float64 {
 // MaxN возвращает наибольшее число из массива чисел
 func MaxN(nums []float64) float64 {
 	var maxNum float64
-	for i, _ := range nums {
+	for i := range nums {
 		if i == 0 {
 			continue
 		}
